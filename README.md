@@ -9,12 +9,13 @@ For RDP libraries,
 - Eikon Desktop or Refinitiv workspace is running on your machine|
 - The Access Credential is required to use RDP libraries. For more detail, please check RDP libraries - Access Credentials.
 
-Required python libraries and their version:
+### Required python libraries and their version:
+you may download requirements.txt from this repo then use the command `pip install -r requirements.txt` to install required libraries
 - refinitiv.dataplatform 1.0.0a10
 - datetime 4.3
 - pandas 1.3.1
 - requests 2.25.1
-- matplotlib.pyplot 3.4.2
+- matplotlib 3.4.2
 
 ## Example output
 ![image](https://cdn-images-1.medium.com/max/800/1*pkOM_Pd7ZtNY9f9gv_ICrQ.png)
